@@ -1,9 +1,10 @@
 using FluentValidator;
 using FluentValidator.Validation;
+using RaphaStore.Shared.Commands;
 
 namespace RaphaStore.Domain.StoreContext.Commands.CostumerCommands.Inputs
 {
-    public class CreateCustomerCommand : Notifiable
+    public class CreateCustomerCommand : Notifiable, ICommand
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
