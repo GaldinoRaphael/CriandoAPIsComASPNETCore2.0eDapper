@@ -33,6 +33,8 @@ namespace RaphaStore.Domain.StoreContext.Entities
 
             var item = new OrderItem(product, quantity);
 
+            product.DecreaseQuantityOnHand(quantity);
+
             _items.Add(item);
         }
 
@@ -55,7 +57,7 @@ namespace RaphaStore.Domain.StoreContext.Entities
         {
             //A cada cinco produtos é uma entrega
             var deliveries = new List<Delivery>();
-            deliveries.Add(new Delivery(DateTime.Now.AddDays(5)));
+            //deliveries.Add(new Delivery(DateTime.Now.AddDays(5)));
             var count = 1;
 
             foreach (var item in _items)

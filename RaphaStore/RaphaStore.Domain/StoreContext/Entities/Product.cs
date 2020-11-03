@@ -20,6 +20,11 @@ namespace RaphaStore.Domain.StoreContext.Entities
         public decimal Price { get; private set; }
         public decimal QuantityOnHand { get; private set; }
 
+        public void DecreaseQuantityOnHand(decimal quantity)
+        {
+            QuantityOnHand -= quantity;
+        }
+
         public override string ToString()
         {
             return Title;
