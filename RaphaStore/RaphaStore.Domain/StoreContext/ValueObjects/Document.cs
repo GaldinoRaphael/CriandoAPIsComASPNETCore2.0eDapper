@@ -1,6 +1,6 @@
 using FluentValidator;
 using FluentValidator.Validation;
-using RaphaelStore.Domain.StoreContext.Enums;
+using RaphaStore.Domain.StoreContext.Enums;
 
 namespace RaphaStore.Domain.StoreContext.ValueObjects
 {
@@ -12,7 +12,7 @@ namespace RaphaStore.Domain.StoreContext.ValueObjects
         {
             Number = number;
 
-            AddNotification(new ValidationContract()
+            AddNotifications(new ValidationContract()
                 .IsTrue(Validate(Number), "Document", "CPF Invalido")
                 );
         }

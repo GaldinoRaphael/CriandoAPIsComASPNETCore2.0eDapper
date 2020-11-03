@@ -1,8 +1,8 @@
 using System;
-using RaphaelStore.Domain.StoreContext.Enums;
+using RaphaStore.Domain.StoreContext.Enums;
 using RaphaStore.Domain.StoreContext.ValueObjects;
 
-namespace BaltaStore.Domain.StoreContext.Entities
+namespace RaphaStore.Domain.StoreContext.Entities
 {
     public class Address
     {

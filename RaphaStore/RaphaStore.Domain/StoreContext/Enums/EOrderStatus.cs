@@ -1,4 +1,4 @@
-namespace RaphaelStore.Domain.StoreContext.Enums
+namespace RaphaStore.Domain.StoreContext.Enums
 {
     public enum EOrderStatus
     {

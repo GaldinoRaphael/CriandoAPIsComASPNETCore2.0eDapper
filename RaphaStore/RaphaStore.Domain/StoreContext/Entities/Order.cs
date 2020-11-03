@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using FluentValidator;
-using RaphaelStore.Domain.StoreContext.Enums;
+using RaphaStore.Domain.StoreContext.Enums;
 
-namespace BaltaStore.Domain.StoreContext.Entities
+namespace RaphaStore.Domain.StoreContext.Entities
 {
     public class Order : Notifiable
     {

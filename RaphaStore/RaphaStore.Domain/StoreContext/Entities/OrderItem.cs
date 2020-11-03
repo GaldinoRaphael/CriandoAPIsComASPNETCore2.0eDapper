@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using FluentValidator;
 
-namespace BaltaStore.Domain.StoreContext.Entities
+namespace RaphaStore.Domain.StoreContext.Entities
 {
     public class OrderItem : Notifiable
     {

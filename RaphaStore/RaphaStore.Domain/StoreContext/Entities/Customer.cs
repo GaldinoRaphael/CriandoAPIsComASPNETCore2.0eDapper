@@ -4,7 +4,7 @@ using System.Linq;
 using FluentValidator;
 using RaphaStore.Domain.StoreContext.ValueObjects;
 
-namespace BaltaStore.Domain.StoreContext.Entities
+namespace RaphaStore.Domain.StoreContext.Entities
 {
     public class Costumer : Notifiable
     {
