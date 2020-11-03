@@ -24,10 +24,10 @@ namespace RaphaStore.Tests
             var teclado = new Product("Teclado", "Teclado", "img.png", 359, 99M);
             var cadeira = new Product("Cadeira", "Cadeira", "img.png", 559, 99M);
             var order = new Order(costumer);
-            order.AddItem(new OrderItem(teclado, 5));
-            order.AddItem(new OrderItem(mouse, 5));
-            order.AddItem(new OrderItem(impressora, 5));
-            order.AddItem(new OrderItem(cadeira, 5));
+            // order.AddItem(new OrderItem(teclado, 5));
+            // order.AddItem(new OrderItem(mouse, 5));
+            // order.AddItem(new OrderItem(impressora, 5));
+            // order.AddItem(new OrderItem(cadeira, 5));
 
             order.Place();
 

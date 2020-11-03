@@ -1,17 +1,25 @@
+using FluentValidator;
+using FluentValidator.Validation;
+
 namespace RaphaStore.Domain.StoreContext.ValueObjects
 {
-    public class Email
+    public class Email : Notifiable
     {
-        public string Adress { get; private set; }
+        public string Address { get; private set; }
 
-        public Email(string adress)
+        public Email(string address)
         {
-            Adress = adress;
+            Address = address;
+
+            AddNotifications(new ValidationContract()
+                .Requires()
+                .IsEmail(Address, "Email", "O email é invalido")
+            );
         }
 
         public override string ToString()
         {
-            return $"{Adress}";
+            return $"{Address}";
         }
     }
 }
