@@ -1,0 +1,17 @@
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\bin\Debug\netcoreapp2.1\RaphaStore.Tests.deps.json
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\bin\Debug\netcoreapp2.1\RaphaStore.Tests.runtimeconfig.json
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\bin\Debug\netcoreapp2.1\RaphaStore.Tests.runtimeconfig.dev.json
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\bin\Debug\netcoreapp2.1\RaphaStore.Tests.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\bin\Debug\netcoreapp2.1\RaphaStore.Tests.pdb
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\bin\Debug\netcoreapp2.1\RaphaStore.Domain.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\bin\Debug\netcoreapp2.1\RaphaStore.Domain.pdb
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\obj\Debug\netcoreapp2.1\RaphaStore.Tests.csprojAssemblyReference.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\obj\Debug\netcoreapp2.1\RaphaStore.Tests.csproj.CoreCompileInputs.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\obj\Debug\netcoreapp2.1\RaphaStore.Tests.AssemblyInfoInputs.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\obj\Debug\netcoreapp2.1\RaphaStore.Tests.AssemblyInfo.cs
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\obj\Debug\netcoreapp2.1\RaphaStore.Tests.csproj.CopyComplete
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\obj\Debug\netcoreapp2.1\RaphaStore.Tests.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\obj\Debug\netcoreapp2.1\RaphaStore.Tests.pdb

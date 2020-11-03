@@ -1,0 +1,14 @@
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\bin\Debug\netcoreapp2.1\RaphaStore.Api.deps.json
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\bin\Debug\netcoreapp2.1\RaphaStore.Api.runtimeconfig.json
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\bin\Debug\netcoreapp2.1\RaphaStore.Api.runtimeconfig.dev.json
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\bin\Debug\netcoreapp2.1\RaphaStore.Api.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\bin\Debug\netcoreapp2.1\RaphaStore.Api.pdb
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\obj\Debug\netcoreapp2.1\RaphaStore.Api.csprojAssemblyReference.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\obj\Debug\netcoreapp2.1\RaphaStore.Api.csproj.CoreCompileInputs.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\obj\Debug\netcoreapp2.1\RaphaStore.Api.RazorAssemblyInfo.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\obj\Debug\netcoreapp2.1\RaphaStore.Api.RazorAssemblyInfo.cs
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\obj\Debug\netcoreapp2.1\RaphaStore.Api.AssemblyInfoInputs.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\obj\Debug\netcoreapp2.1\RaphaStore.Api.AssemblyInfo.cs
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\obj\Debug\netcoreapp2.1\RaphaStore.Api.RazorTargetAssemblyInfo.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\obj\Debug\netcoreapp2.1\RaphaStore.Api.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Api\obj\Debug\netcoreapp2.1\RaphaStore.Api.pdb

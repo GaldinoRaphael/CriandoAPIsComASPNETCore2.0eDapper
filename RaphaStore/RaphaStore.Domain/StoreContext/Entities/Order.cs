@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using FluentValidator;
 using RaphaelStore.Domain.StoreContext.Enums;
 
 namespace BaltaStore.Domain.StoreContext.Entities
 {
-    public class Order
+    public class Order : Notifiable
     {
         private readonly IList<OrderItem> _items;
         private readonly IList<Delivery> _deliveries;
@@ -36,6 +37,8 @@ namespace BaltaStore.Domain.StoreContext.Entities
         {
             Number = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 8).ToUpper();
             //Validar
+            if (_items.Count == 0)
+                AddNotification("Order", "Este pedido não possui items");
         }
 
         public void Pay()
@@ -47,16 +50,26 @@ namespace BaltaStore.Domain.StoreContext.Entities
         public void Ship()
         {
             //A cada cinco produtos é uma entrega
+            var deliveries = new List<Delivery>();
+            deliveries.Add(new Delivery(DateTime.Now.AddDays(5)));
             var count = 1;
 
-            foreach (var item in _itens)
+            foreach (var item in _items)
             {
+                if (count == 5)
+                {
+                    count = 1;
+                    _deliveries.Add(new Delivery(DateTime.Now.AddDays(5)));
+                }
                 count++;
             }
-            var delivery = new Delivery(DateTime.Now.AddDays(5));
-            _deliveries.Add(delivery);
-            _deliveries.Ship();
+            deliveries.ForEach(x => x.Ship());
+            deliveries.ForEach(x => _deliveries.Add(x));
         }
-        public void Cancel() { }
+        public void Cancel()
+        {
+            Status = EOrderStatus.Canceled;
+            _deliveries.ToList().ForEach(x => x.Cancel());
+        }
     }
 }

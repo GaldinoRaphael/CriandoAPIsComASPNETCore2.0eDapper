@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
+using FluentValidator;
 using RaphaelStore.Domain.StoreContext.Enums;
 
 namespace BaltaStore.Domain.StoreContext.Entities
 {
-    public class Delivery
+    public class Delivery : Notifiable
     {
         public Delivery(DateTime estimaredDeliveryDate)
         {
@@ -20,6 +21,10 @@ namespace BaltaStore.Domain.StoreContext.Entities
         public void Ship()
         {
             Status = EDeliveryStatus.Shipped;
+        }
+        public void Cancel()
+        {
+            Status = EDeliveryStatus.Canceled;
         }
     }
 }
