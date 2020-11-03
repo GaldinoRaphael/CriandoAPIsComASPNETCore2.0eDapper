@@ -11,12 +11,11 @@ namespace RaphaStore.Domain.StoreContext.ValueObjects
             LastName = lastName;
 
             AddNotifications(new ValidationContract()
-                .Requires()
-                .HasMinLen(firstName, 3, "FirstName", "O nome deve conter pelo menos 3 caracteres")
-                .HasMaxLen(firstName, 40, "FirstName", "O nome deve conter pelo no máximo 40 caracteres")
-                .HasMinLen(lastName, 3, "LastName", "O nome deve conter pelo menos 3 caracteres")
-                .HasMaxLen(lastName, 40, "LastName", "O nome deve conter pelo no máximo 40 caracteres")
-            );
+                  .Requires()
+                  .HasMinLen(FirstName, 3, "FirstName", "O nome deve conter pelo menos 3 caracteres")
+                  .HasMaxLen(FirstName, 40, "FirstName", "O nome deve conter pelo no máximo 40 caracteres")
+                  .HasMinLen(LastName, 3, "LastName", "O nome deve conter pelo menos 3 caracteres")
+                  .HasMaxLen(LastName, 40, "LastName", "O nome deve conter pelo no máximo 40 caracteres"));
         }
 
         public string FirstName { get; private set; }
