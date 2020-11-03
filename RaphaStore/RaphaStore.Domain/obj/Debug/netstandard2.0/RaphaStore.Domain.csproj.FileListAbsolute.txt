@@ -1,0 +1,9 @@
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\bin\Debug\netstandard2.0\RaphaStore.Domain.deps.json
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\bin\Debug\netstandard2.0\RaphaStore.Domain.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\bin\Debug\netstandard2.0\RaphaStore.Domain.pdb
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\obj\Debug\netstandard2.0\RaphaStore.Domain.csprojAssemblyReference.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\obj\Debug\netstandard2.0\RaphaStore.Domain.csproj.CoreCompileInputs.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\obj\Debug\netstandard2.0\RaphaStore.Domain.AssemblyInfoInputs.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\obj\Debug\netstandard2.0\RaphaStore.Domain.AssemblyInfo.cs
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\obj\Debug\netstandard2.0\RaphaStore.Domain.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\obj\Debug\netstandard2.0\RaphaStore.Domain.pdb
