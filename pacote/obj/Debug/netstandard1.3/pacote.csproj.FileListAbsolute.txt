@@ -1,0 +1,9 @@
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\pacote\bin\Debug\netstandard1.3\pacote.deps.json
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\pacote\bin\Debug\netstandard1.3\pacote.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\pacote\bin\Debug\netstandard1.3\pacote.pdb
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\pacote\obj\Debug\netstandard1.3\pacote.csprojAssemblyReference.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\pacote\obj\Debug\netstandard1.3\pacote.csproj.CoreCompileInputs.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\pacote\obj\Debug\netstandard1.3\pacote.AssemblyInfoInputs.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\pacote\obj\Debug\netstandard1.3\pacote.AssemblyInfo.cs
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\pacote\obj\Debug\netstandard1.3\pacote.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\pacote\obj\Debug\netstandard1.3\pacote.pdb

@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <Version>0.0.1</Version>
+    <Company>RaphaeStore</Company>
+  </PropertyGroup>
+
+</Project>
