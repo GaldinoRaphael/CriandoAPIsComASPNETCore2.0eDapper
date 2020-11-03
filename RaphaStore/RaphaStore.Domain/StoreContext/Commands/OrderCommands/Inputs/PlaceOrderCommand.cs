@@ -21,7 +21,7 @@ namespace RaphaStore.Domain.StoreContext.Commands.OrderCommands
                 .HasLen(Customer.ToString(), 36, "Customer", "Indentificador do cliente inválido")
                 .IsGreaterThan(OrderItems.Count, 0, "OrderItem", "Nenhum item do pedido foi encontrado")
   );
-            return Valid();
+            return IsValid;
         }
     }
 

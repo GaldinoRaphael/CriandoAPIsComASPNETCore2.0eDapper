@@ -23,7 +23,7 @@ namespace RaphaStore.Domain.StoreContext.Commands.CostumerCommands.Inputs
                   .IsEmail(Email, "Email", "O Email é invalido")
                   .HasLen(Document, 11, "Document", "CPF inválido")
               );
-            return Valid();
+            return IsValid;
         }
     }
 }
