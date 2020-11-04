@@ -1,17 +1,144 @@
 {
   "format": 1,
   "restore": {
-    "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Infra\\RaphaStore.Infra.csproj": {}
+    "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Infra\\RaphaStore.Infra.csproj": {}
   },
   "projects": {
-    "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Infra\\RaphaStore.Infra.csproj": {
+    "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Domain\\RaphaStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Infra\\RaphaStore.Infra.csproj",
-        "projectName": "RaphaStore.Infra",
-        "projectPath": "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Infra\\RaphaStore.Infra.csproj",
+        "projectUniqueName": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Domain\\RaphaStore.Domain.csproj",
+        "projectName": "RaphaStore.Domain",
+        "projectPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Domain\\RaphaStore.Domain.csproj",
         "packagesPath": "C:\\Users\\NOVA\\.nuget\\packages\\",
-        "outputPath": "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Infra\\obj\\",
+        "outputPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NOVA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj": {
+                "projectPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FluentValidator": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Infra\\RaphaStore.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Infra\\RaphaStore.Infra.csproj",
+        "projectName": "RaphaStore.Infra",
+        "projectPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Infra\\RaphaStore.Infra.csproj",
+        "packagesPath": "C:\\Users\\NOVA\\.nuget\\packages\\",
+        "outputPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NOVA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Domain\\RaphaStore.Domain.csproj": {
+                "projectPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Domain\\RaphaStore.Domain.csproj"
+              },
+              "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj": {
+                "projectPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj",
+        "projectName": "RaphaStore.Shared",
+        "projectPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj",
+        "packagesPath": "C:\\Users\\NOVA\\.nuget\\packages\\",
+        "outputPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +168,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "FluentValidator": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

@@ -1,0 +1,4 @@
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Infra\obj\Debug\netstandard2.0\RaphaStore.Infra.csprojAssemblyReference.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Infra\obj\Debug\netstandard2.0\RaphaStore.Infra.csproj.CoreCompileInputs.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Infra\obj\Debug\netstandard2.0\RaphaStore.Infra.AssemblyInfoInputs.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Infra\obj\Debug\netstandard2.0\RaphaStore.Infra.AssemblyInfo.cs
