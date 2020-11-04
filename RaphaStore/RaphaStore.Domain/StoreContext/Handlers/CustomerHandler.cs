@@ -46,13 +46,15 @@ namespace RaphaStore.Domain.StoreContext.Handlers
 
             if (Invalid)
                 return null;
+
             //Persistir o cliente
             if (IsValid)
                 _repository.save(customer);
             //Enviar email de boas vindas
+            _emailService.Send(email.Address, "hello@balta.io", "Seja bem vindo ao balta store");
 
             //Retornar resultado para tela
-            return new CreateCustomerCommandResult(Guid.NewGuid(), name.ToString(), email.Address);
+            return new CreateCustomerCommandResult(customer.Id, name.ToString(), email.Address);
         }
 
         public ICommandResult Handle(AddAddressCommand command)

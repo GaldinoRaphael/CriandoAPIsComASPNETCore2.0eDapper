@@ -1024,10 +1024,19 @@
       },
       "RaphaStore.Domain/1.0.0": {
         "dependencies": {
-          "FluentValidator": "2.0.2"
+          "FluentValidator": "2.0.2",
+          "RaphaStore.Shared": "1.0.0"
         },
         "runtime": {
           "RaphaStore.Domain.dll": {}
+        }
+      },
+      "RaphaStore.Shared/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
+        "runtime": {
+          "RaphaStore.Shared.dll": {}
         }
       }
     }
@@ -1536,6 +1545,11 @@
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
     },
     "RaphaStore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RaphaStore.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

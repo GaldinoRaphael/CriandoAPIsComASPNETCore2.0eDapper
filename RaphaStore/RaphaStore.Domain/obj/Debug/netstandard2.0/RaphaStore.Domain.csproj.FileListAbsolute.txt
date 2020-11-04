@@ -7,3 +7,6 @@ C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\obj\Debug
 C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\obj\Debug\netstandard2.0\RaphaStore.Domain.AssemblyInfo.cs
 C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\obj\Debug\netstandard2.0\RaphaStore.Domain.dll
 C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\obj\Debug\netstandard2.0\RaphaStore.Domain.pdb
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\bin\Debug\netstandard2.0\RaphaStore.Shared.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\bin\Debug\netstandard2.0\RaphaStore.Shared.pdb
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Domain\obj\Debug\netstandard2.0\RaphaStore.Domain.csproj.CopyComplete

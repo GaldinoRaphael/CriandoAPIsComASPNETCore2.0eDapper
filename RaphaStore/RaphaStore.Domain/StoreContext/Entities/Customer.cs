@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using FluentValidator;
 using RaphaStore.Domain.StoreContext.ValueObjects;
+using RaphaStore.Shared.Entities;
 
 namespace RaphaStore.Domain.StoreContext.Entities
 {
-    public class Customer : Notifiable
+    public class Customer : Entity
     {
         private readonly IList<Address> _address;
         public Customer(

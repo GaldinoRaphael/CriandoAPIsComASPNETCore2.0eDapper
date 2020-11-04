@@ -1,10 +1,11 @@
 using System;
 using RaphaStore.Domain.StoreContext.Enums;
 using RaphaStore.Domain.StoreContext.ValueObjects;
+using RaphaStore.Shared.Entities;
 
 namespace RaphaStore.Domain.StoreContext.Entities
 {
-    public class Address
+    public class Address : Entity
     {
         public Address(
             string street,

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Api\\RaphaStore.Api.csproj": {}
+    "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Api\\RaphaStore.Api.csproj": {}
   },
   "projects": {
-    "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Api\\RaphaStore.Api.csproj": {
+    "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Api\\RaphaStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Api\\RaphaStore.Api.csproj",
+        "projectUniqueName": "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Api\\RaphaStore.Api.csproj",
         "projectName": "RaphaStore.Api",
-        "projectPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Api\\RaphaStore.Api.csproj",
+        "projectPath": "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Api\\RaphaStore.Api.csproj",
         "packagesPath": "C:\\Users\\NOVA\\.nuget\\packages\\",
-        "outputPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Api\\obj\\",
+        "outputPath": "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

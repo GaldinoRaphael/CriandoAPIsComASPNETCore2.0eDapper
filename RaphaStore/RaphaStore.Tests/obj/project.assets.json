@@ -1634,13 +1634,27 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FluentValidator": "2.0.2"
+          "FluentValidator": "2.0.2",
+          "RaphaStore.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/RaphaStore.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/RaphaStore.Domain.dll": {}
+        }
+      },
+      "RaphaStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
+        "compile": {
+          "bin/placeholder/RaphaStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RaphaStore.Shared.dll": {}
         }
       }
     }
@@ -5887,6 +5901,11 @@
       "type": "project",
       "path": "../RaphaStore.Domain/RaphaStore.Domain.csproj",
       "msbuildProject": "../RaphaStore.Domain/RaphaStore.Domain.csproj"
+    },
+    "RaphaStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../RaphaStore.Shared/RaphaStore.Shared.csproj",
+      "msbuildProject": "../RaphaStore.Shared/RaphaStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

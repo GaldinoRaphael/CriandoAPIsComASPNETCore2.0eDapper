@@ -2,10 +2,11 @@ using System;
 using System.Collections.Generic;
 using FluentValidator;
 using RaphaStore.Domain.StoreContext.Enums;
+using RaphaStore.Shared.Entities;
 
 namespace RaphaStore.Domain.StoreContext.Entities
 {
-    public class Delivery : Notifiable
+    public class Delivery : Entity
     {
         public Delivery(DateTime estimaredDeliveryDate)
         {

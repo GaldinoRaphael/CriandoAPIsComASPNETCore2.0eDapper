@@ -15,3 +15,5 @@ C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\obj\Debug\
 C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\obj\Debug\netcoreapp2.1\RaphaStore.Tests.csproj.CopyComplete
 C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\obj\Debug\netcoreapp2.1\RaphaStore.Tests.dll
 C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\obj\Debug\netcoreapp2.1\RaphaStore.Tests.pdb
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\bin\Debug\netcoreapp2.1\RaphaStore.Shared.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Tests\bin\Debug\netcoreapp2.1\RaphaStore.Shared.pdb
