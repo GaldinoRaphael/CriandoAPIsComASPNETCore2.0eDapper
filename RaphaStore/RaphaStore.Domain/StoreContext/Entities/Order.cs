@@ -10,16 +10,16 @@ namespace RaphaStore.Domain.StoreContext.Entities
     {
         private readonly IList<OrderItem> _items;
         private readonly IList<Delivery> _deliveries;
-        public Order(Costumer costumer)
+        public Order(Customer customer)
         {
-            Costumer = costumer;
+            Customer = customer;
             CreateDate = DateTime.Now;
             Status = EOrderStatus.Created;
             _items = new List<OrderItem>();
             _deliveries = new List<Delivery>();
         }
 
-        public Costumer Costumer { get; private set; }
+        public Customer Customer { get; private set; }
         public string Number { get; private set; }
         public DateTime CreateDate { get; private set; }
         public EOrderStatus Status { get; private set; }

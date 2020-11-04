@@ -37,6 +37,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "RaphaStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RaphaStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RaphaStore.Shared.dll": {}
+        }
       }
     }
   },
@@ -196,12 +206,18 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "RaphaStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../RaphaStore.Shared/RaphaStore.Shared.csproj",
+      "msbuildProject": "../RaphaStore.Shared/RaphaStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "FluentValidator >= 2.0.2",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "RaphaStore.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -211,11 +227,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Domain\\RaphaStore.Domain.csproj",
+      "projectUniqueName": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Domain\\RaphaStore.Domain.csproj",
       "projectName": "RaphaStore.Domain",
-      "projectPath": "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Domain\\RaphaStore.Domain.csproj",
+      "projectPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Domain\\RaphaStore.Domain.csproj",
       "packagesPath": "C:\\Users\\NOVA\\.nuget\\packages\\",
-      "outputPath": "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Domain\\obj\\",
+      "outputPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -233,7 +249,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj": {
+              "projectPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

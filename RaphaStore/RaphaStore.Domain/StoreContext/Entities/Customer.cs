@@ -6,10 +6,10 @@ using RaphaStore.Domain.StoreContext.ValueObjects;
 
 namespace RaphaStore.Domain.StoreContext.Entities
 {
-    public class Costumer : Notifiable
+    public class Customer : Notifiable
     {
         private readonly IList<Address> _address;
-        public Costumer(
+        public Customer(
         Name name,
         Document document,
         Email email,

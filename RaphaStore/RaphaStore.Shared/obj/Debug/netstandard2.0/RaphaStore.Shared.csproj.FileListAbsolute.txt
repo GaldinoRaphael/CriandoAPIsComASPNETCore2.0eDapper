@@ -1,0 +1,9 @@
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Shared\bin\Debug\netstandard2.0\RaphaStore.Shared.deps.json
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Shared\bin\Debug\netstandard2.0\RaphaStore.Shared.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Shared\bin\Debug\netstandard2.0\RaphaStore.Shared.pdb
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Shared\obj\Debug\netstandard2.0\RaphaStore.Shared.csprojAssemblyReference.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Shared\obj\Debug\netstandard2.0\RaphaStore.Shared.csproj.CoreCompileInputs.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Shared\obj\Debug\netstandard2.0\RaphaStore.Shared.AssemblyInfoInputs.cache
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Shared\obj\Debug\netstandard2.0\RaphaStore.Shared.AssemblyInfo.cs
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Shared\obj\Debug\netstandard2.0\RaphaStore.Shared.dll
+C:\LAB\CriandoAPIsComASPNETCore2.0eDapper\RaphaStore\RaphaStore.Shared\obj\Debug\netstandard2.0\RaphaStore.Shared.pdb

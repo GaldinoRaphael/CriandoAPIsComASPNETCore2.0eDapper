@@ -8,7 +8,7 @@ namespace RaphaStore.Tests.Entities
     [TestClass]
     public class OrderTests
     {
-        private Costumer _costumer;
+        private Customer _customer;
         private Order _order;
         private Product _teclado;
         private Product _mouse;
@@ -20,12 +20,12 @@ namespace RaphaStore.Tests.Entities
             var name = new Name("Baltiere", "Santos");
             var document = new Document("797.154.310-70");
             var email = new Email("rapha@io.com.br");
-            _costumer = new Costumer(name, document, email, "999999999");
+            _customer = new Customer(name, document, email, "999999999");
             _teclado = new Product("Teclado", "Teclado", "img.png", 100M, 10);
             _mouse = new Product("Mouse", "Mouse", "img.png", 100M, 10);
             _chair = new Product("Chair", "Chair", "img.png", 100M, 10);
             _monitor = new Product("Monitor", "Monitor", "img.png", 100M, 10);
-            _order = new Order(_costumer);
+            _order = new Order(_customer);
         }
         [TestMethod]
         public void DevoCriarUmPedidoQuandoValido()

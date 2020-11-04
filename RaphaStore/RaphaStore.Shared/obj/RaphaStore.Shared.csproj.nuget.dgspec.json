@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj": {}
+    "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj": {}
   },
   "projects": {
-    "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj": {
+    "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj",
+        "projectUniqueName": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj",
         "projectName": "RaphaStore.Shared",
-        "projectPath": "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj",
+        "projectPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\RaphaStore.Shared.csproj",
         "packagesPath": "C:\\Users\\NOVA\\.nuget\\packages\\",
-        "outputPath": "c:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\obj\\",
+        "outputPath": "C:\\LAB\\CriandoAPIsComASPNETCore2.0eDapper\\RaphaStore\\RaphaStore.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
