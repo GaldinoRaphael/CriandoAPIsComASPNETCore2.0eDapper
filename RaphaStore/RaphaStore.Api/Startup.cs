@@ -16,6 +16,11 @@ namespace RaphaStore.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            //Vai usar o que já está na memória
+            services.AddScoped<BaltaDataContext, BaltaDataContext>();
+            //Instacia um novo a cada depencia
+            services.AddTransient<ICustomerRepository, CustomerRepository>();
+            services.AddTransient<IEmailService, EmailServices>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
